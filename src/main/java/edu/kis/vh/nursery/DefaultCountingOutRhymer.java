@@ -2,9 +2,9 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    public static final int NEGATIVE = -1;
-    public static final int SIZE = 12;
-    public int total = NEGATIVE;
+    private static final int NEGATIVE = -1;
+    private static final int SIZE = 12;
+    private int total = NEGATIVE;
     private final int[] numbers = new int[SIZE];
 
     public void countIn(int in) {
